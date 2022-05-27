@@ -1,0 +1,92 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.left {
+    color: white;
+    background-color:black;
+    text-align: center;
+}
+
+#Logo {
+    text-align: left;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.Intro {
+    margin-top: 32%;
+    margin-bottom: 50%;
+}
+
+.SignUp {
+    margin-top: 2em;
+    margin-left: 13em;
+    padding: 0.7em;
+    background-color: white;
+    color: black;
+    max-width: 30%;
+    border-radius: 50px;
+}
+
+.SignUp:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.right {
+    color: black;
+    background-color: white;
+}
+
+.right-element {
+    margin-top: 32%;
+    margin-bottom: 20%;
+    text-align: center;
+}
+
+form {
+    margin-top: 2em;
+    display: grid;
+    row-gap: 2em;
+}
+
+form input {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1em;
+    width: 20em;
+}
+
+.SignIn {
+    margin-left: 16.8em;
+    margin-top: 0.2em;
+    max-width: 30%;
+    padding: 0.7em;
+    background-color:black;
+    color: white;
+    border-radius: 50px;
+}
+
+.SignIn:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+#adm-sign-in {
+
+    margin-top: 0em;
+}
+
+#adm-sign-in a {
+    color: black;
+    text-decoration: none;
+}
